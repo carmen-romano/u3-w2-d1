@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  background-color: rgb(233, 233, 233);
+}
+* {
+  font-family: "Lato", sans-serif;
+}
+.book-image {
+  height: 330px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image-card,
+.link {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover,
+.link:hover {
+  transform: scale(1.05);
+}
+svg {
+  width: 100px;
+}
+.link {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.container-img-singleBook {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.active {
+  border: 3px solid rgb(0, 150, 0);
+}
+.inactive {
+  border: 3px solid rgba(0, 150, 0, 0.194);
+}
+.searchContainer {
+  margin-bottom: 20px;
+}
+.search {
+  width: 50vw !important;
+  text-align: center;
+}
+.ct-books {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
